@@ -4,7 +4,7 @@ import re
 
 from docx import Document
 
-
+# To use, convert the docx to markdown formatting first using https://word2md.com/
 def replace_links_and_images(docx_path):
     doc = Document(docx_path)
     for paragraph in doc.paragraphs:
